@@ -1,0 +1,50 @@
+.Button-container {
+  font-family: 'Signika Negative';
+  font-size: 18px;
+  font-weight: 600;
+  color: #2E313B;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Button-green {
+  background-color: #6BC47D;
+}
+
+.Button-green:hover {
+  background-color: #7FE393;
+}
+
+.Button-green:active {
+  background-color: #6BC47D;
+}
+
+.Button-green-outline {
+  border: 2px solid #6BC47D;
+  padding: 8px 18px;
+  color: #6BC47D;
+}
+
+.Button-green-outline:hover {
+  border-color: #7FE393;
+  color: #7FE393;
+}
+
+.Button-green-outline:active {
+  border-color: #6BC47D;
+  color: #6BC47D;
+}
+
+.Button-red  {
+  background-color: #E68585;
+}
+
+.Button-red:hover {
+  background-color: #F5A3A3;
+}
+
+.Button-red:active  {
+  background-color: #E68585;
+}

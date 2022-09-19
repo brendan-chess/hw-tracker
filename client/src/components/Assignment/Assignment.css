@@ -1,0 +1,147 @@
+.Assignment-container {
+  font-family: 'Signika Negative';
+}
+
+.Assignment-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Assignment-subject {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2E313B;
+  padding: 5px;
+  background-color: #74D2EF;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.Assignment-progress-bar {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: center;
+}
+
+.Assignment-progress-bar-background {
+  background-color: #4D5364;
+  height: 8px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0px 1px;
+}
+
+.Assignment-progress-bar-filler {
+  background-color: #6BC47D;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.Assignment-progress {
+  font-size: 18px;
+  font-weight: 500;
+  color: #E3C9B5;
+}
+
+.Assignment-edit {
+  cursor: pointer;
+}
+
+.Assignment-edit-img {
+  width: 24px;
+  height: 24px;
+}
+
+.Assignment-edit-menu {
+  position: absolute;
+  cursor: default;
+  background-color: #2E313B;
+  border: 3px solid #4D5364;
+  border-radius: 8px;
+  transform: translateX(-35%);
+}
+
+.Assignment-edit-menu-text {
+  margin: 12px;
+  color: #6BC47D;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.Assignment-edit-menu-divider {
+  width: 72%;
+  height: 2px;
+  background-color: #4D5364;
+  transform: translateX(20%);
+}
+
+.Assignment-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.Assignment-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #EEDFD3;
+  text-align: left;
+}
+
+.Assignment-due-date {
+  font-size: 24px;
+  font-weight: 400;
+  color: #E3C9B5;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.Assignment-due-date * {
+  margin-left: 20px;
+}
+
+.Assignment-step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.Assignment-step-check-completed {
+  width: 18px;
+  height: 18px;
+  background-color: #E3C9B5;
+  border-radius: 10px;
+}
+
+.Assignment-step-check-incomplete {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #E3C9B5;
+  border-radius: 10px;
+}
+
+.Assignment-step-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #E3C9B5;
+  margin-left: 10px;
+}
+
+.Assignment-step-title-completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}

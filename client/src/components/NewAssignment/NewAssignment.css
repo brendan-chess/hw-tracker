@@ -1,0 +1,18 @@
+.NewAssignment-container {
+  width: 600px;
+}
+
+.NewAssignment-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.NewAssignment-steps >* {
+  margin-bottom: 10px;
+}
+
+.NewAssignment-steps .Button-container {
+  width: 100px;
+  margin-top: 5px;
+}

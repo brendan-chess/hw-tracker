@@ -1,0 +1,30 @@
+.TextInput-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.TextInput-label {
+  color: #E6D0BF;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.TextInput-input {
+  background-color: #4D5364;
+  color: #D5A784;
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  font-family: 'Signika Negative';
+  font-weight: 300;
+  width: calc(100% - 30px);
+}
+
+.TextInput-input:focus {
+  outline: none;
+}
