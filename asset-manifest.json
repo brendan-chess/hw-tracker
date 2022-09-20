@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hw-tracker/static/css/main.c0028649.css",
+    "main.js": "/hw-tracker/static/js/main.b23abc33.js",
+    "index.html": "/hw-tracker/index.html",
+    "static/media/edit.svg": "/hw-tracker/static/media/edit.d92207b4f7d7ecef169df543330646eb.svg",
+    "static/media/sort_icon.svg": "/hw-tracker/static/media/sort_icon.fb8d61cf137a28c03574b98ba6943b9e.svg",
+    "main.c0028649.css.map": "/hw-tracker/static/css/main.c0028649.css.map",
+    "main.b23abc33.js.map": "/hw-tracker/static/js/main.b23abc33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0028649.css",
+    "static/js/main.b23abc33.js"
+  ]
+}
