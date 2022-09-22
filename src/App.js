@@ -1,6 +1,8 @@
 import './App.css'
 import { useState } from 'react'
 import sortIcon from './sort_icon.svg'
+import listIcon from './list_icon.svg'
+import calendarIcon from './calendar_icon.svg'
 import AssignmentsList from './components/AssignmentsList/AssignmentsList'
 import Button from './components/Button/Button'
 import NewAssignment from './components/NewAssignment/NewAssignment'
@@ -14,7 +16,19 @@ function App() {
   return (
     <div className="App">
       <div className='App-header'>
-        <div className='App-date'>{days[date.getDay()]} {date.getMonth() + 1}/{date.getDate()}</div>
+        <div className='App-header-row'>
+          <div className='App-date'>{days[date.getDay()]} {date.getMonth() + 1}/{date.getDate()}</div>
+          <div style={{ display: 'flex' }}>
+            <div className='App-header-button'>
+              <img className='App-header-button-icon' src={listIcon} />
+              <div className='App-header-button-text'>ASSIGNMENTS</div>
+            </div>
+            <div className='App-header-button'>
+              <img className='App-header-button-icon' src={calendarIcon} />
+              <div className='App-header-button-text'>CALENDAR</div>
+            </div>
+          </div>
+        </div>
         <div className='App-divider'/>
       </div>
       <div className='App-buttons'>

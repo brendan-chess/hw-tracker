@@ -17,6 +17,32 @@
   align-items: flex-start;
 }
 
+.App-header-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.App-header-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+.App-header-button-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.App-header-button-text {
+  color: #6BC47D;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
 .App-date {
   font-size: 36px;
   font-weight: 600;
