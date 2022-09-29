@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hw-tracker/static/css/main.81796fce.css",
-    "main.js": "/hw-tracker/static/js/main.f6dfcc5d.js",
+    "main.js": "/hw-tracker/static/js/main.c5803ab5.js",
     "static/media/calendar_icon.svg": "/hw-tracker/static/media/calendar_icon.bdbc30eb4604a7f42de703a66d3dd361.svg",
     "index.html": "/hw-tracker/index.html",
     "static/media/list_icon.svg": "/hw-tracker/static/media/list_icon.329d5ae78e5209b7abc81a1cf5996861.svg",
     "static/media/edit.svg": "/hw-tracker/static/media/edit.d92207b4f7d7ecef169df543330646eb.svg",
     "static/media/sort_icon.svg": "/hw-tracker/static/media/sort_icon.fb8d61cf137a28c03574b98ba6943b9e.svg",
     "main.81796fce.css.map": "/hw-tracker/static/css/main.81796fce.css.map",
-    "main.f6dfcc5d.js.map": "/hw-tracker/static/js/main.f6dfcc5d.js.map"
+    "main.c5803ab5.js.map": "/hw-tracker/static/js/main.c5803ab5.js.map"
   },
   "entrypoints": [
     "static/css/main.81796fce.css",
-    "static/js/main.f6dfcc5d.js"
+    "static/js/main.c5803ab5.js"
   ]
 }
