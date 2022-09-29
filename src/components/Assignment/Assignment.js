@@ -16,7 +16,7 @@ const Assignment = ({ data, getAllAssignments }) => {
       return previous
     }, 0)
 
-    const newProgress = (stepsCompleted / newSteps.length) * 100
+    const newProgress = Math.round((stepsCompleted / newSteps.length) * 100)
     
     const assignmentRef = doc(db, 'assignments', data.id)
     await updateDoc(assignmentRef, {
